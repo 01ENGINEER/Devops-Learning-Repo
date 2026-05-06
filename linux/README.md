@@ -100,7 +100,9 @@ Completed OverTheWire Bandit levels:
 
 ```txt
 Bandit Level 0 → Level 20
+
 Through these challenges I practiced:
+
 Navigating Linux environments
 Reading hidden files
 Finding files with specific properties
@@ -109,7 +111,9 @@ Using SSH connections
 Working with permissions
 Using pipes and command combinations
 Understanding Linux security concepts
+
 Key Learnings
+
 How to work confidently inside the Linux terminal
 How Linux file systems are structured
 How permissions and ownership work
@@ -117,42 +121,72 @@ How to search and manipulate files
 How to combine commands using pipes
 How to troubleshoot terminal errors
 How SSH is used for remote access
+
 Challenges I Overcame
-One challenge I faced was learning how Linux commands work together through pipes and redirection. Understanding how command output can become another command’s input took practice during the Bandit challenges.
+
+One challenge I faced was learning how Linux commands work together through pipes and redirection.
+Understanding how command output can become another command’s input took practice during the Bandit challenges.
+
 I also improved my understanding of:
 Hidden files
 Permissions
 Searching for files
 Reading unusual file contents
 Working entirely through the terminal
+
 The Bandit labs helped me become more comfortable using Linux without relying on a graphical interface.
+
 Additional Information
+
 During this module I made a few mistakes that helped improve my understanding of Linux, Git, and repository management.
-One mistake I made was accidentally saving my documentation file as READ.md instead of README.md. I learned that README.md is a standard filename recognized by GitHub and used to automatically display documentation inside repositories and folders.
+
+One mistake I made was accidentally saving my documentation file as READ.md instead of README.md.
+
+I learned that README.md is a standard filename recognized by GitHub and used to automatically display documentation inside repositories and folders.
+
 I corrected this by renaming the file properly using terminal commands:
 mv READ.md README.md
-I also accidentally initialized Git inside my entire Documents directory instead of inside my Devops Learning Repo folder. This caused unrelated files and folders to appear on GitHub.
+
+I also accidentally initialized Git inside my entire Documents directory instead of inside my Devops Learning Repo folder.
+
+This caused unrelated files and folders to appear on GitHub.
+
 To fix this issue I:
+
 Removed the incorrect .git repository
 Reinitialized Git in the correct folder
 Reconnected the repository to GitHub
 Cleaned unnecessary macOS system files using .gitignore
-Another issue I encountered was .DS_Store and .localized files appearing inside the repository. I learned these are hidden macOS system files and should not normally be tracked in Git repositories.
+
+
+Another issue I encountered was .DS_Store and .localized files appearing inside the repository.
+
+I learned these are hidden macOS system files and should not normally be tracked in Git repositories.
+
 I resolved this by creating a .gitignore file and excluding these files from future commits.
+
+
 These mistakes helped me better understand:
+
 Repository structure
 File naming conventions
 Git tracking behavior
 Hidden system files
 Troubleshooting and fixing Git issues
 The importance of working carefully inside the terminal
+
 Why Linux Matters in DevOps
+
 Linux is one of the most important technologies in DevOps because most servers, cloud systems, and containers run on Linux-based operating systems.
+
+
 Linux skills are essential for:
+
 Server administration
 Automation
 Cloud engineering
 Docker and Kubernetes
 Monitoring and troubleshooting
 Infrastructure management
+
 Strong Linux fundamentals are a core skill for DevOps engineers and system administrators.
