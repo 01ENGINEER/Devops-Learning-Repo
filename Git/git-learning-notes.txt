@@ -1,0 +1,29 @@
+Git Learning Notes
+
+Today I learned the fundamentals of Git and GitHub and how version control works in a real workflow.
+
+I learned that Git is the actual version control system running locally on my machine, while GitHub is the cloud platform used to store and share repositories online.
+
+I practiced creating repositories, commits, pushing changes, and understanding how Git tracks files and folders. I also learned that Git does not track empty folders, only files inside them.
+
+During setup, I accidentally initialized Git inside my Documents folder instead of inside my Devops Learning Repo folder. This caused GitHub to upload unrelated folders and files. I fixed this by removing the incorrect .git directory, recreating the repository correctly, and reconnecting it to GitHub.
+
+I also learned how hidden macOS files such as .DS_Store and .localized can accidentally be tracked by Git. To solve this, I introduced a .gitignore file into the project to ignore unnecessary system files.
+
+To improve my workflow, I created a Bash script called push.sh that automates:
+- git add .
+- git commit
+- git push
+
+This now allows me to update my repository much faster without manually typing every Git command each time I finish a module.
+
+I also learned basic Git terminology including:
+- repositories
+- commits
+- branches
+- remotes
+- staging areas
+- merge conflicts
+- Git vs GitHub
+
+This module helped me better understand how real developers structure and manage projects using Git and GitHub.
